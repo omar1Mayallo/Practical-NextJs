@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 75vh;
+}
+#todoList {
+  width: 300px;
+}
+
+input {
+  font-size: 30px;
+}
+
+.hint {
+  color: gray;
+}
+
+.hidden {
+  display: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  color: red;
+  float: right;
+  cursor: pointer;
+}

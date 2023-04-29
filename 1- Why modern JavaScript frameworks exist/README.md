@@ -46,7 +46,7 @@ You may still wonder, _*“Aren’t we doing the same thing again and doubling o
 
 When anything new is added to the application, a virtual DOM is created and it is represented as a tree. Each element in the application is a node in this tree. So, whenever there is a change in the state of any element, a new Virtual DOM tree is created. This new Virtual DOM tree is then compared with the previous Virtual DOM tree and make a note of the changes. After this, it finds the best possible ways to make these changes to the real DOM. **_Now only the updated elements will get rendered on the page again. In this way, lots of DOM operations/refreshes are minimized, improving performance significantly._**
 
-<div align="center"><img src="https://miro.medium.com/v2/resize:fit:1400/1*eDpgmIW3vBGj6m64GGlFVw.gif" width="400" height="400"/></div>
+<div align="center"><img src="assets/vdom.gif" width="400" height="400"/></div>
 
 <hr />
 

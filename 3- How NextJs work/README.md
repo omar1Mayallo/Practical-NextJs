@@ -10,7 +10,7 @@ Next.js provides a framework to structure your application, and optimizations th
 
 ## Development and Production Environments
 
-You can think of environments as the context in which your code is running.<br/><br/>
+You can think of environments as the context in which your code is running.<br/>
 **_Development_** : building and running the application on your local machine.<br/>
 **_Production_** : process of making your application ready to be deployed and consumed by users.<br/>
 
@@ -30,3 +30,20 @@ Since each environment has different considerations and goals, there is a lot th
 
 The Next.js Compiler handles much of these code transformations and underlying infrastructure to make it easier for your application to go to production.
 This is made possible because Next.js has a compiler written in Rust, a low-level programming language, and [SWC](https://nextjs.org/docs/architecture/nextjs-compiler), a platform that can be used for [compilation](https://nextjs.org/learn/foundations/how-nextjs-works/compiling), [minification](https://nextjs.org/learn/foundations/how-nextjs-works/minifying), [bundling](https://nextjs.org/learn/foundations/how-nextjs-works/bundling), and more. also Next.js has [built-in support for code splitting](https://nextjs.org/learn/foundations/how-nextjs-works/code-splitting).
+
+## Build Time and Runtime
+
+**_Build Time_** : (or build step) is the name given to a series of steps that prepare your application code for production.<br/>
+**_Runtime_** : (or request time) refers to the period of time when your application runs in response to a user’s request, after your application has been built and deployed.<br/>
+
+When you build _(Build Time)_ your application, Next.js will transform your code into production-optimized files ready to be deployed to servers and consumed by users. These files include:
+
+- HTML files for statically generated pages
+- JavaScript code for rendering pages on the server
+- JavaScript code for making pages interactive on the client
+- CSS files
+
+## Client, Server and Rendering
+
+<!-- prettier-ignore -->
+> I Will Discuss these in [4- Rendering folder](https://github.com/omar1Mayallo/Practical-NextJs/tree/main/4-%20Rendering%20(CSR%20vs%20Pre-rendering%20%5BSSR%2C%20SSG%2C%20ISG%5D%20))

@@ -12,4 +12,5 @@ The main resources i will use in this repo is
 
 - [Next.js documentation](https://nextjs.org/)
 - [Complete Next.js Developer in 2023: Zero to Mastery](https://www.udemy.com/course/complete-nextjs-developer-zero-to-mastery/)
+- [Mastering Next.js by Lee Robinson](https://www.youtube.com/playlist?list=PL6bwFJ82M6FXjyBTVi6WSCWin8q_g_8RR)
 - [React.js documentation](https://react.dev/)
